@@ -1107,39 +1107,46 @@
           <div class="u-container-layout u-valign-middle u-container-layout-1">
             <h2 class="u-align-center u-text u-text-default u-text-1"> Get in touch</h2>
             <div class="u-align-center u-form u-form-1">
-              <form action="https://formsubmit.co/obierobarrack34@gmail.com" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" source="email" name="form" style="padding: 0px;">
-                <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-1">
-                  <label for="name-73d1" class="u-label">First Name</label>
-                  <input type="text" placeholder="Enter your First Name" id="name-73d1" name="name-1" class="u-border-2 u-border-grey-5 u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-none" required="">
-                </div>
-                <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-2">
-                  <label for="name-73d1" class="u-label">Last Name</label>
-                  <input type="text" placeholder="Enter your Last Name" id="name-73d1" name="name-2" class="u-border-2 u-border-grey-5 u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-none" required="">
-                </div>
-                <div class="u-form-email u-form-group">
-                  <label for="email-4c18" class="u-label">Email</label>
-                  <input type="email" placeholder="Enter a valid email address" id="email-4c18" name="email" class="u-border-2 u-border-grey-5 u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-none" required="">
-                </div>
-                <div class="u-form-group u-form-message">
-                  <label for="message-4c18" class="u-label">Message</label>
-                  <textarea placeholder="Enter your message" rows="4" cols="50" id="message-4c18" name="message" class="u-border-2 u-border-grey-5 u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-none" required=""></textarea>
-                </div>
-                <div class="u-form-agree u-form-group u-form-group-5">
-                  <label class="u-field-label" style=""></label>
-                  <input type="checkbox" id="agree-2953" name="agree" class="u-agree-checkbox u-field-input" required="">
-                  <label for="agree-2953" class="u-agree-label u-field-label">I accept the <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-active-palette-1-light-2 u-text-hover-palette-1-light-2 u-text-palette-1-light-1 u-btn-1" href="#">Terms of Service</a>
-                  </label>
-                </div>
-                <div class="u-align-right u-form-group u-form-submit">
-                  <a href="#" class="u-active-grey-50 u-border-active-palette-4-light-1 u-border-hover-palette-4-light-1 u-border-none u-btn u-btn-submit u-button-style u-hover-grey-50 u-palette-1-light-1 u-btn-2">submit</a>
-                  <input type="submit" value="submit" class="u-form-control-hidden">
-                </div>
-                <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
-                <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
-                <input type="hidden" value="" name="recaptchaResponse">
-                <input type="hidden" name="formServices" value="052a1da5-dcae-d9b1-fcc5-a122e05a5083">
-                <input type="hidden" name="siteKey" value="6LdkN-ErAAAAAMfs9W5zF9qZ8DxysaNGxlAmsTfI">
-              </form>
+              <form action="https://formsubmit.co/obierobarrack34@gmail.com" method="POST" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form" name="form" style="padding: 0px;">
+  <!-- Hidden fields for FormSubmit -->
+  <input type="hidden" name="_subject" value="New Contact Message from Website">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_next" value="https://yourwebsite.vercel.app/thank-you.html">
+
+  <!-- Form fields -->
+  <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-1">
+    <label for="first-name" class="u-label">First Name</label>
+    <input type="text" placeholder="Enter your First Name" id="first-name" name="first_name" class="u-border-2 u-border-grey-5 u-input u-input-rectangle u-none" required>
+  </div>
+
+  <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-2">
+    <label for="last-name" class="u-label">Last Name</label>
+    <input type="text" placeholder="Enter your Last Name" id="last-name" name="last_name" class="u-border-2 u-border-grey-5 u-input u-input-rectangle u-none" required>
+  </div>
+
+  <div class="u-form-email u-form-group">
+    <label for="email" class="u-label">Email</label>
+    <input type="email" placeholder="Enter a valid email address" id="email" name="email" class="u-border-2 u-border-grey-5 u-input u-input-rectangle u-none" required>
+  </div>
+
+  <div class="u-form-group u-form-message">
+    <label for="message" class="u-label">Message</label>
+    <textarea placeholder="Enter your message" rows="4" id="message" name="message" class="u-border-2 u-border-grey-5 u-input u-input-rectangle u-none" required></textarea>
+  </div>
+
+  <div class="u-form-agree u-form-group">
+    <input type="checkbox" id="agree" name="agree" class="u-agree-checkbox u-field-input" required>
+    <label for="agree" class="u-agree-label u-field-label">
+      I accept the <a href="#">Terms of Service</a>
+    </label>
+  </div>
+
+  <div class="u-align-right u-form-group u-form-submit">
+    <button type="submit" class="u-btn u-button-style u-palette-1-light-1 u-btn-submit">Submit</button>
+  </div>
+</form>
+
             </div>
           </div>
         </div>
